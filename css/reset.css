@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* 패딩과 박스안쪽으로 밀어넣는거다 
+  width값과 height이 있을떄 적용됨*/
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+}
